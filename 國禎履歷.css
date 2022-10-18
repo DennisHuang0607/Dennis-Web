@@ -168,6 +168,11 @@ nav a{
         text-align: center;
         padding: 0 20px;
     }
+    .content-2 .skill{
+        font-size: 20px;
+        font-weight: 1000;
+        color: darkcyan;
+    }
 }
 .content-3{
     width: 1350px;
