@@ -6,7 +6,6 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-color: #ccc;
     background: 
     linear-gradient(295deg,#77FFEE 50%,
     transparent 50%) center center / 100% 100%,
@@ -49,5 +48,21 @@
     text-shadow: 5px 5px 8px purple;
     color: yellow;
 }
-
-
+@media screen and (max-width:768px) {
+    .banner{
+        background: 
+        linear-gradient(295deg,#0abca7 30%,
+        transparent 50%) center center / 100% 100%,
+        url("FP.jpg") left center / auto 100%;
+        background-repeat: no-repeat;
+    }
+    .banner-txt h3{
+        font-size: 35px;
+    }
+    .banner-txt p{
+        font-size: 20px;
+    }
+    .banner-txt a{
+        font-size: 25px;
+    }
+}

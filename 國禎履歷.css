@@ -146,6 +146,11 @@ nav a{
     line-height: 1.8;
     color: rgba(32, 32, 32, 0.574);
 }
+.content-2 .skill{
+    font-size: 30px;
+    font-weight: 1000;
+    color: darkcyan;
+}
 @media screen and (max-width:768px) {
     .content-2{
         display: block;
@@ -161,6 +166,7 @@ nav a{
     }
     .content-2 p{
         text-align: center;
+        padding: 0 20px;
     }
 }
 .content-3{
